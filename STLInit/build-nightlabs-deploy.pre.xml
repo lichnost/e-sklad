@@ -1,0 +1,7 @@
+<project>
+	<target name="deploy.pre">
+		<copy todir="${j2ee.deploy.dir}/${j2ee.deploy.dir.lib}">
+			<fileset dir="${STL.deploy.lib}" includes="${STL.deploy.lib.includes}"/>
+		</copy>
+	</target>
+</project>
