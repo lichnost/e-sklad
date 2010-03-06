@@ -1,0 +1,210 @@
+﻿/** Add css rules here for your application. */
+
+#line  {
+    padding: 10px;
+}
+
+.shortcut {
+	background-position: top;
+	background-repeat: no-repeat;
+	padding-top: 56px;
+	text-align: center;
+	text-decoration: underline;
+	color: black;
+	font: normal 11px tahoma, arial, verdana, sans-serif;
+	width: 68px;
+	cursor: pointer;
+	margin: 10px 0 0 15px;
+}
+
+.report-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/report-small.gif) !important ;
+}
+
+#portal-logo
+{
+	background-image: url(./images/portal-logo.gif);
+}
+
+#report-large
+{
+	background-image: url(./images/report-large.gif);
+}
+
+#bill-large
+{
+	background-image: url(./images/bill-large.gif);
+}
+
+.product-group-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/product-group-small.gif) !important ;
+}
+
+.product-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/product-small.gif) !important ;
+}
+
+#product-large
+{
+	background-image: url(./images/product-large.gif);
+}
+
+.company-small
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/company-small.gif) !important ;
+}
+
+#company-large
+{
+	background-image: url(./images/company-large.gif);
+}
+
+.income-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/income-small.gif);
+}
+
+#income-large
+{
+	background-image: url(./images/income-large.gif);
+}
+
+.inventory-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/inventory-small.gif) !important ;
+}
+
+#inventory-large
+{
+	background-image: url(./images/inventory-large.gif);
+}
+
+.invoice-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/invoice-small.gif) !important ;
+}
+
+#invoice-large
+{
+	background-image: url(./images/invoice-large.gif);
+}
+
+.legal-entity-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/legal-entity-small.gif) !important ;
+}
+
+#legal-entity-large
+{
+	background-image: url(./images/legal-entity-large.gif);
+}
+
+.move-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/move-small.gif) !important ;
+}
+
+#move-large
+{
+	background-image: url(./images/move-large.gif);
+}
+
+.outlay-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/outlay-small.gif) !important ;
+}
+
+#outlay-large
+{
+	background-image: url(./images/outlay-large.gif);
+}
+
+.remain-small 
+{
+	background-image: url(./images/remain-small.gif) !important ;
+}
+
+#remain-large
+{
+	background-image: url(./images/remain-large.gif);
+}
+
+.store-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/store-small.gif) !important ;
+}
+
+#store-large
+{
+	background-image: url(./images/store-large.gif);
+}
+
+.unit-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/unit-small.gif) !important ;
+}
+
+#unit-large
+{
+	background-image: url(./images/unit-large.gif);
+}
+
+.user-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/user-small.gif) !important ;
+}
+
+.writeoff-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/writeoff-small.gif) !important ;
+}
+
+#writeoff-large
+{
+	background-image: url(./images/writeoff-large.gif);
+}
+
+#income-order-large
+{
+	background-image: url(./images/income-order-large.gif);
+}
+
+#outlay-order-large
+{
+	background-image: url(./images/outlay-order-large.gif);
+}
+
+.cashdesk-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/cashdesk-small.gif) !important ;
+}
+
+.bankaccount-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/bankaccount-small.gif) !important ;
+}
+
+.money-small 
+{
+	background-repeat: no-repeat;
+	background-image: url(./images/money-small.gif) !important ;
+}

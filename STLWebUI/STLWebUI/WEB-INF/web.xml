@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app
+     PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<display-name>STLWebUI</display-name>
+
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>
+
+	<filter>
+		<filter-name>CompressingFilter</filter-name>
+		<filter-class>com.planetj.servlet.filter.compression.CompressingFilter</filter-class>
+		<init-param>
+			<param-name>includeContentTypes</param-name>
+			<param-value>text/html,text/xml,application/json,text/css,text/javascript</param-value>
+		</init-param>	
+	</filter>
+	<filter-mapping>
+		<filter-name>CompressingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<listener>
+		<listener-class>org.stablylab.webui.server.util.LogOutListener</listener-class>
+	</listener>
+	
+	<servlet>
+		<servlet-name>loginService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.LoginServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>loginService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/loginService</url-pattern> 
+	</servlet-mapping>
+  
+	<servlet>
+		<servlet-name>treeService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.TreeServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>treeService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/treeService</url-pattern> 
+	</servlet-mapping> 
+  
+	<servlet>
+		<servlet-name>gridService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.GridDataServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>gridService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/gridService</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>storeService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.StoreServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>storeService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/storeService</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>accessoryService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.AccessoryServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>accessoryService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/accessoryService</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>comboboxService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.ComboboxServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>comboboxService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/comboboxService</url-pattern> 
+	</servlet-mapping> 
+	
+	<servlet>
+		<servlet-name>legalEntityService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.LegalEntityServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>legalEntityService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/legalEntityService</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>tradeService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.TradeServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>tradeService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/tradeService</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>reportService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.ReportServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>reportService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/reportService</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>reportServlet</servlet-name>
+		<servlet-class>org.stablylab.webui.server.ReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>reportServlet</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/reportServlet</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>settingsService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.SettingsServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>settingsService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/settingsService</url-pattern> 
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>financeService</servlet-name>
+		<servlet-class>org.stablylab.webui.server.service.FinanceServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping> 
+		<servlet-name>financeService</servlet-name> 
+		<url-pattern>/org.stablylab.webui.Portal/financeService</url-pattern> 
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

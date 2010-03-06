@@ -1,0 +1,42 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                        -->
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name="com.google.gwt.i18n.I18N" />
+	<inherits name='com.extjs.gxt.ui.GXT'/>
+	
+	<source path="client"/>
+
+	<!-- Russian language, independent of country -->
+	<extend-property name="locale" values="ru"/>
+
+
+
+	<!-- Inherit the default GWT style sheet.  You can change       -->
+	<!-- the theme of your GWT application by uncommenting          -->
+	<!-- any one of the following lines.                            -->
+	<inherits name='com.google.gwt.user.theme.standard.Standard'/>
+
+	<!-- Other module inherits                                      -->
+
+
+	<!-- Specify the app entry point class.                         -->
+	<entry-point class='org.stablylab.webui.client.Portal'/>
+
+	<!-- Specify the application specific style sheet.              -->
+	<stylesheet src='Portal.css' />
+	
+	<servlet path="/loginService" class="org.stablylab.webui.server.service.LoginServiceImpl"/>
+	<servlet path="/treeService" class="org.stablylab.webui.server.service.TreeServiceImpl"/>
+	<servlet path="/gridService" class="org.stablylab.webui.server.service.GridDataServiceImpl"/>
+	<servlet path="/storeService" class="org.stablylab.webui.server.service.StoreServiceImpl"/>
+	<servlet path="/accessoryService" class="org.stablylab.webui.server.service.AccessoryServiceImpl"/>
+	<servlet path="/comboboxService" class="org.stablylab.webui.server.service.ComboboxServiceImpl"/>
+	<servlet path="/legalEntityService" class="org.stablylab.webui.server.service.LegalEntityServiceImpl"/>
+	<servlet path="/tradeService" class="org.stablylab.webui.server.service.TradeServiceImpl"/>
+	<servlet path="/reportService" class="org.stablylab.webui.server.service.ReportServiceImpl"/>
+	<servlet path="/reportServlet" class="org.stablylab.webui.server.ReportServlet"/>
+	<servlet path="/settingsService" class="org.stablylab.webui.server.service.SettingsServiceImpl"/>
+	<servlet path="/financeService" class="org.stablylab.webui.server.service.FinanceServiceImpl"/>
+	
+</module>
