@@ -1,0 +1,7 @@
+<!DOCTYPE datastore-initialisation
+		PUBLIC "-//NightLabs GmbH//DTD Datastore Initialisation 1.2//EN"
+		"http://www.nightlabs.de/dtd/datastoreinit_1_2.dtd">
+<organisation-initialisation>
+	<init bean="jfire/ejb/STL/InitManager" method="initialise" priority="991">
+	</init>
+</organisation-initialisation>
