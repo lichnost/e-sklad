@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="JBOSS/client/jboss-j2ee.jar"/>
+	<classpathentry kind="src" path="ejbsrc"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="var" path="JBOSS/server/default/lib/servlet-api.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JFireBase"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JFireBaseBean"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JFireServerManager"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JFireWebLib"/>
+	<classpathentry kind="lib" path="/NightLabsBase/dist/NightLabsBase.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/NightLabsBase"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/STLCore"/>
+	<classpathentry kind="lib" path="/lib/commons-beanutils/jars/commons-beanutils-1.7.0.jar"/>
+	<classpathentry kind="lib" path="/lib/commons-collections/jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="/lib/commons-lang/jars/commons-lang-2.2.jar"/>
+	<classpathentry kind="lib" path="/lib/commons-logging/jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/lib/vars/JDO2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/NightLabsJDO"/>
+	<classpathentry kind="lib" path="/lib/STLLib/dozer.jar"/>
+	<classpathentry kind="lib" path="/lib/STLLib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="/lib/STLLib/gxt.jar"/>
+	<classpathentry kind="lib" path="/lib/STLLib/poi.jar"/>
+	<classpathentry kind="var" path="WORKSPACE/NightLabsXStream/dist/lib/xstream-1.2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JFireBaseClientLib"/>
+	<classpathentry kind="lib" path="/lib/STLLib/commons-fileupload.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

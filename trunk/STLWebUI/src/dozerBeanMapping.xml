@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings
+        xmlns="http://dozer.sourceforge.net"
+        xsi:schemaLocation="http://dozer.sourceforge.net
+http://dozer.sourceforge.net/schema/beanmapping.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<!--
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.store.ProductGroup</class-a>
+		<class-b>org.stablylab.webui.client.model.store.ProductGroupBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.accessory.Country</class-a>
+		<class-b>org.stablylab.webui.client.model.accessory.CountryBeanModel</class-b>
+	</mapping>
+	
+		<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.store.Store</class-a>
+		<class-b>org.stablylab.webui.client.model.store.StoreBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.store.ProductUnit</class-a>
+		<class-b>org.stablylab.webui.client.model.store.ProductUnitBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.store.Product</class-a>
+		<class-b>org.stablylab.webui.client.model.store.ProductBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.store.Manufacturer</class-a>
+		<class-b>org.stablylab.webui.client.model.store.ManufacturerBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.legalentity.LegalEntity</class-a>
+		<class-b>org.stablylab.webui.client.model.legalentity.LegalEntityBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.finance.BankAccount</class-a>
+		<class-b>org.stablylab.webui.client.model.finance.BankAccountBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.accessory.Address</class-a>
+		<class-b>org.stablylab.webui.client.model.accessory.AddressBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.accessory.ContactInfo</class-a>
+		<class-b>org.stablylab.webui.client.model.accessory.ContactInfoBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.accessory.Document</class-a>
+		<class-b>org.stablylab.webui.client.model.accessory.DocumentBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.accessory.PriceConfig</class-a>
+		<class-b>org.stablylab.webui.client.model.accessory.PriceConfigBeanModel</class-b>
+	</mapping>
+	
+	<mapping wildcard="true">
+		<class-a>org.stablylab.ruerp.model.settings.UserPrefs</class-a>
+		<class-b>org.stablylab.webui.client.model.settings.UserPrefsBeanModel</class-b>
+	</mapping>
+	-->
+	
+	
+</mappings>

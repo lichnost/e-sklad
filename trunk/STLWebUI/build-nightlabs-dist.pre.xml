@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="STLWebUI" basedir=".">
+
+	<property file="gwt.properties"/>
+	<property file="build-nightlabs.properties"/>
+	
+	<target name="dist.pre">
+		<path id="gwt.compile.classpath">
+					<pathelement location="${gwt.location}/gwt-user.jar"/>
+					<pathelement location="${gwt.location}/gwt-dev-windows.jar"/>
+					<pathelement location="${STL.deploy.lib}/gxt.jar"/>
+					<pathelement location="./../STLCore/src"/>
+					<pathelement location="./../STLCore/bin"/>
+					<pathelement location="src"/>
+					<pathelement location="bin"/>
+				</path>
+				
+				<java classname="com.google.gwt.dev.GWTCompiler" fork="true">
+					<jvmarg value="-Xmx256M"/>
+								
+					<arg line="-logLevel ${gwt.compile.loglevel}"/>
+					<arg line="-style ${gwt.compile.style}"/>
+					<arg line="-out ${gwt.out}"/>
+					<arg value="${gwt.module}"/>
+										
+					<classpath>
+						<path refid="gwt.compile.classpath"/>
+					</classpath>
+										
+				</java>
+				
+				<delete dir="./STLWebUI/.gwt-tmp"/>
+	</target>
+	
+</project> 
