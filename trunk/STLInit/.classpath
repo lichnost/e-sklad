@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="var" path="JBOSS/client/jboss-j2ee.jar"/>
+	<classpathentry kind="src" path="ejbsrc"/>
+	<classpathentry kind="src" path="/JFireBaseBean"/>
+	<classpathentry kind="src" path="/JFireBase"/>
+	<classpathentry kind="src" path="/JFireWebLib"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/NightLabsBase"/>
+	<classpathentry kind="lib" path="STLInit/WEB-INF/lib/WizardWindow.jar"/>
+	<classpathentry kind="lib" path="/lib/vars/JBOSS/server/default/lib/servlet-api.jar"/>
+	<classpathentry kind="src" path="/JFireServerManager"/>
+	<classpathentry kind="lib" path="D:/Workplace/Source/jFire-min/lib/STLLib/gwt-servlet.jar"/>
+	<classpathentry kind="lib" path="/lib/STLLib/gxt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

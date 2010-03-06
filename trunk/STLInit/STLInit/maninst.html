@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+
+<head>
+  <title>Настройка сервер web-Склад</title>
+</head>
+
+<body>
+	<b>Настройка сервер web-Склад</b><br/><br/>
+	<form name="init" action="http://localhost:8080/init/org.stablylab.init.Init/initServlet" method="POST">
+		IP-адрес(имя хоста) сервера <input name="serverHost" type="text" value="127.0.0.1" /><br/>
+		HTTP порт <input name="httpPort" type="text" value="80" /><br/>
+		HTTPS порт <input name="httpsPort" type="text" value="443" /><br/>
+		База данных(MySQL, Derby) <input name="databaseType" type="text" value="MySQL" /><br/>
+		IP-адрес(имя хоста) базы данных(для MySQL) <input name="databaseHost" type="text" value="localhost" /><br/>
+        Порт базы данных(для MySQL) <input name="databasePort" type="text" value="3306" /><br/>
+		Имя пользователя базы данных <input name="databaseUserName" type="text" value="" /><br/>
+		Пароль базы данных <input name="databasePassword" type="text" value="" /><br/>
+		Сервер SMTP <input name="smtpHost" type="text" value="" /><br/>
+		Порт SMTP <input name="smtpPort" type="text" value="" /><br/>
+		Имя(почтового ящика) SMTP <input name="smtpUsername" type="text" value="" /><br/>
+		Пароль(пока не нужен) SMTP <input name="smtpPassword" type="text" value="" /><br/>
+		От SMTP <input name="smtpMailFrom" type="text" value="" /><br/>
+		ID организации <input type="text" name="organisationID" value="" /><br/>
+		Администратор сервера <input type="text" name="adminName" value="admin" /><br/>
+		Пароль администратора <input type="text" name="adminPassword" value="admin" /><br/>
+		<input type="submit" name="submit" value="Настроить" />
+		<input type="reset" name="reset" value="Сбросить" />
+	</form>
+</body>
+
+</html>
