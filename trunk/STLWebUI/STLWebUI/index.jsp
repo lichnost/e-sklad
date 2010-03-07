@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>web-Склад</title>
+<title>E-Склад</title>
 </head>
 <body>
 	<%
