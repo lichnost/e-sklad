@@ -71,8 +71,7 @@ public class AppView extends View {
 	
 	private void createNorth() {
 		StringBuffer sb = new StringBuffer();
-		sb.append("<a href=\"http://www.etchk.ru/\" target=\"_blank\"><img src=\"./org.stablylab.webui.Portal/images/portal-logo.gif\" style=\"border:none; float:left; padding: 3px 0px 0px 10px;\"/></a>"
-				+ "<a href=\"mailto:support@etchk.ru\" style=\"float:right; padding: 5px 10px 0px 0px; font: normal 11px tahoma, arial, verdana, sans-serif;\" target=\"_blank\">Служба поддержки</a>");
+		sb.append("<a href=\"http://code.google.com/p/e-sklad/\" target=\"_blank\"><img src=\"./org.stablylab.webui.Portal/images/portal-logo.gif\" style=\"border:none; float:left; padding: 3px 0px 0px 10px;\"/></a>");
 		
 		HtmlContainer northPanel = new HtmlContainer(sb.toString());
 		northPanel.setEnableState(false);
