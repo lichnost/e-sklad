@@ -132,7 +132,7 @@ public class LoginDialog extends Dialog {
 
 	    organisation = new TextField<String>();
 	    organisation.setFieldLabel("Организация");
-	    form.add(organisation);
+	   // form.add(organisation);
 		
 	    userName = new TextField<String>();
 	    userName.setFieldLabel("Пользователь");
@@ -281,7 +281,12 @@ public class LoginDialog extends Dialog {
 //		LoginDialog.this.hide();
 // tryLogin(organisation.getValue()...
 		Registry.register("d", false);
-	    loginService.tryLogin(organisation.getValue(), userName.getValue(), password.getValue(), new AsyncCallback<Boolean>() {
+	    loginService.tryLogin(
+	    		//organisation.getValue(),
+	    		"first.org", 
+	    		userName.getValue(),
+	    		password.getValue(),
+	    		new AsyncCallback<Boolean>() {
 
 			public void onFailure(Throwable caught) {
 
