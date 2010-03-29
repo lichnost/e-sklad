@@ -17,7 +17,7 @@
 Далее необходимо создать нового пользователя в MySQL, для этого:<br>
 1) Запускаем MySQL Command Line Client;<br>
 2) В появившемся окне командной строки пишем пароль доступа(задавался при установке MySQL);<br>
-3) Создаем нового пользователя командой: " <b> grant all on *.* to [$user] @ localhost identified by '[$password]'; </b>".<br><br>
+3) Создаем нового пользователя командой: " <b> grant all on *.* to [$user]@ localhost identified by '[$password]' </b>".<br><br>
 <img src="../images/doc/mysql1.png" alt="Рисунок 1" align="center"><br>
 Рисунок 1<br><br>
 						
