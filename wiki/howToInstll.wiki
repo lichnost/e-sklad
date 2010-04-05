@@ -18,7 +18,7 @@
 1) Запускаем MySQL Command Line Client;<br>
 2) В появившемся окне командной строки пишем пароль доступа(задавался при установке MySQL);<br>
 3) Создаем нового пользователя командой: " <b> grant all on *.* to $user@localhost identified by '$password' </b>".<br><br>
-<img src="../images/doc/mysql1.png" alt="Рисунок 1" align="center"><br>
+http://img641.imageshack.us/img641/8047/mysql1.png><br>
 Рисунок 1<br><br>
 						
 Установка программы E-склад под Windows не отличается от установки любой другой программы.
