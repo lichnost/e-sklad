@@ -18,28 +18,29 @@
 1) Запускаем MySQL Command Line Client;<br>
 2) В появившемся окне командной строки пишем пароль доступа(задавался при установке MySQL);<br>
 3) Создаем нового пользователя командой: " <b> grant all on *.* to $user@localhost identified by '$password' </b>".<br><br>
-http://img641.imageshack.us/img641/8047/mysql1.png><br>
+http://img641.imageshack.us/img641/8047/mysql1.png <br>
 Рисунок 1<br><br>
 						
 Установка программы E-склад под Windows не отличается от установки любой другой программы.
 При установке вам необходимо будет выбрать каталог назначения, куда будет устанавливаться программа,или оставить его по умолчанию (C:\Program Files\Web-Sklad). По завершении установки, запускаем сервер E-склад меню "Пуск->Программы->E-склад->Запустить E-склад" или в каталоге с порграммой "/bin/start.bat".<br><br>
 
-<img src="../images/doc/win_start.png" alt="Рисунок 2" align="center"><br>
+http://img694.imageshack.us/img694/3795/winstart.png <br>
 Рисунок 2<br>
 						
 Если открылось окно "Запустить E-склад", с появляющимся в нем текстом (Рисунок 3) значит все идет правильно.<br><br>
-<img src="../images/doc/run_init.png" alt="Рисунок 3" align="center"><br>
+http://img242.imageshack.us/img242/4520/runinit.png <br>
 Рисунок 3<br>
 <b>Внимание!!! Данное окно нельзя закрывать до конца инициализации сервера.</b><br><br>
 Спустя пару минут следует запустить браузер и ввести следующий адрес: <a href="http://localhost:8080/init" class="greyLink">http://localhost:8080/init</a><br>
 Перейдя по вышеуказанному адресу в окне браузера должна появиться форма настройки сервера(Рисунок 4).<br><br>
-<img src="../images/doc/first_init.png" alt="Рисунок 4" align="center"><br>
+http://img199.imageshack.us/img199/9402/firstinit.png 
+<br>
 Рисунок 4<br>
 						
 Как видно из рисунка должен появиться мастер, который поможет нам проинициализировать сервер.<br>
 На 1 шаге жмем далее.<br>
 На 2 шаге в поле IP-адрес необходимо ввести IP-адрес того компьютера, на который устанавливается программа E-склад.<br><br>
-<img src="../images/doc/second_init.png" alt="Рисунок 5" align="center"><br>
+http://img717.imageshack.us/img717/4516/secondinit.png <br>
 Рисунок 5<br>
 						  
 <i>Ip-адрес можно узнать следующим образом: Запустите командную строку(Пуск->Выполнить->cmd). 
@@ -50,23 +51,23 @@ http://img641.imageshack.us/img641/8047/mysql1.png><br>
 Выбрав Derby, впишите имя пользователя БД и пароль и нажмите далее.
 БД Derby будет автоматически создана.<br>
 Выбрав MySQL, надо будет ввести ip-адрес сервера MySQL, порт на котором он работает, имя пользователя БД и пароль.<br><br>
-<img src="../images/doc/third_init.png" alt="Рисунок 6" align="center">><br>
+http://img707.imageshack.us/img707/8420/thirdinit.png <br>
 Рисунок 6<br>
 						
 На 4 шаге запоминаем имя пользователя и пароль для входа в программу E-склад и жмем далее.<br><br>
-<img src="../images/doc/fourth_init.png" alt="Рисунок 7" align="center">><br>
+http://img361.imageshack.us/img361/3700/fourthinit.png <br>
 Рисунок 7<br>
 						
 						
 Ждем сообщения об окончании (Рисунок 8).<br><br>
-<img src="../images/doc/finish_init.png" alt="Рисунок 8" align="center"><br>
+http://img263.imageshack.us/img263/561/finishinit.png <br>
 Рисунок 8<br>
 						  
 						
 	
 Переходим к окну "Запустить E-склад" (Рисунок 6) и ждем появления надписи 
 "Для продолжения нажмите любую клавишу..." (Рисунок 9).<br><br>
-<img src="../images/doc/run_init_end.png" alt="Рисунок 9" align="center"><br>
+http://img213.imageshack.us/img213/7734/runinitend.png <br>
 Рисунок 9<br>
 						
 Все настройка сервера завершена.<br>
